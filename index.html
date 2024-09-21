@@ -15,12 +15,41 @@
         }
 
         /* Fixed header styling */
-        header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1000;
-        }
+        
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1rem; /* Responsive padding */
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+    header p.lead {
+        font-size: 1rem; /* Adjust paragraph font size */
+    }
+    header {
+        padding: 0.75rem; /* Reduce padding on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.25rem; /* Further reduce for very small devices */
+    }
+    header p.lead {
+        font-size: 0.9rem;
+    }
+    header {
+        padding: 0.5rem;
+    }
+}
+        
+       
 
         /* Ensure body content doesn't go under the header */
         body {
@@ -1388,48 +1417,54 @@
 </footer>
 
 <p>
-<h3>Acknoledgements</h3>
-<ul>
-<li>H.H.Baseliose Marthoma Poulose-II</li>
-<li>H.G.Geevarghese Mar Yuliose Metropolitan</li>
-<li>Rev.Fr.C.C. Cherian</li>
-<li>Rev.Fr.Dr.Sunny Chacko</li>
-<li>Rev.Fr.Sleeba Panakkal George</li>
-<li>Rev.Fr.Iyoob Bethany</li> 
-<li>Sri.K.V.Mammen</li>
-<li>Sri.Joice Thottakkad</li>
-<li>Dr.A.S.Joy</li>
-<li>Sri.Laughson K C</li>
-<li>Adv.Gilbert Cheeran</li>
-<li>Sri Justin James</li>
-</ul>
-</p>
-<div class="container mt-5"></div>
-        <div class="row text-center">
-            <!-- Image 1 -->
-            <div class="col-4">
-                <img src="acknoledgment.png" >
-            </div>
-         </div>
+    <h3>Acknoledgements</h3>
+    <ul>
+    <li>H.H.Baseliose Marthoma Poulose-II</li>
+    <li>H.G.Geevarghese Mar Yuliose Metropolitan</li>
+    <li>Rev.Fr.C.C. Cherian</li>
+    <li>Rev.Fr.Dr.Sunny Chacko</li>
+    <li>Rev.Fr.Sleeba Panakkal George</li>
+    <li>Rev.Fr.Iyoob Bethany</li> 
+    <li>Sri.K.V.Mammen</li>
+    <li>Sri.Joice Thottakkad</li>
+    <li>Dr.A.S.Joy</li>
+    <li>Sri.Laughson K C</li>
+    <li>Adv.Gilbert Cheeran</li>
+    <li>Sri Justin James</li>
+    </ul>
+    </p>
+
+<div class="container mt-5 mx-auto px-3">
+    <div class="row text-center">
+        
+        <div>
+            <p align="justify">
+                കേരളത്തിൻറെ വിവിധ ഭാഗങ്ങളിൽ മലങ്കര സഭയുടെ വിശ്വാസം, ചരിത്രം, ആരാധന , ഭരണം എന്നിവ സംബന്ധിച്ച് ലഭ്യമാകാവുന്ന ഒട്ടേറെ രേഖകൾ കണ്ടെടുക്കുവാൻ കഴിഞ്ഞ കുറെ വർഷങ്ങൾക്കിടയിലെ സഭാചരിത്ര ഗവേഷണങ്ങൾ ക്കിടയിൽ സാധിച്ചു. അതിന് സഹായിച്ച ഗ്രന്ഥശാല ഉടമകളോടും ഈ ഗവേഷണ യജ്ഞത്തിൽ ഫെല്ലോഷിപ്പ് അനുവദിക്കുക മൂലം സാമ്പത്തിക സഹായം നൽകിയ യു.ബി.സി. എച്ച്. ഇ ' എ . (യുണൈറ്റഡ് ബോർഡ് ഓഫ് ക്രിസ്ത്യൻ ഹയർ എഡ്യൂക്കേഷൻ ഇൻ ഏഷ്യ ) യോടുള്ള കൃതജ്ഞത രേഖപ്പെടുത്തുന്നു. തിരുവനന്തപുരം, ചെങ്ങന്നൂർ, തിരുവല്ല, കോട്ടയം, കുറുപ്പംപടി. കോതമംഗലം, കണ്ടനാട്,  പറവൂർ, മുളന്തുരുത്തി, ചേപ്പാട്, ആലുവ, കൊരട്ടി, തൃശ്ശൂർ 1 പഴഞ്ഞി, കുന്നംകുളം, തൊഴിയൂർ, പാലയൂർ (ചാവക്കാട് ), അങ്കമാലി, മാന്നാനം തുടങ്ങി കേരളത്തിൽ എമ്പാടും ഉള്ള വിവിധ ക്രൈസ്തവ സഭകളുടെ ദേവാലയങ്ങളും ഭദ്രാസന കേന്ദ്രങ്ങളും ആർക്കൈവ്സുകളും പുരോഹിത ഭവനങ്ങളും മറ്റും സന്ദർശിച്ച് ഗവേഷണം വിജയിക്കുവാൻ സഹായിച്ചവരോട് എല്ലാം നന്ദി രേഖപ്പെടുത്തട്ടെ
+            </p>
+        </div>
+    </div>
 </div>
 
 <!-- Fixed Bottom Navbar -->
 <nav class="navbar navbar-dark navbar-bottom">
     <div class="container-fluid d-flex justify-content-around text-center">
         <a class="nav-link text-white" href="#life-overview">Life </a>
-            <a class="nav-link text-white" href="#priest">Priest</a>
-            <a class="nav-link text-white" href="#professor">Professor</a>
-            <a class="nav-link text-white" href="#Discoveries">Discoveries</a>
-            <a class="nav-link text-white" href="#encyclopedia">Encyclopedia</a>
-            <a class="nav-link text-white" href="#syriac">Syriac</a>
+            <!--a class="nav-link text-white" href="#priest">Priest</a>-->
+            <!--<a class="nav-link text-white" href="#professor">Professor</a>-->
+            <a class="nav-link text-white" href="#Discoveries">Contributions</a>
+            <a class="nav-link text-white" href="#encyclopedia">Encyclopedic</a>
+            <!--<a class="nav-link text-white" href="#syriac">Syriac</a>-->
             <a class="nav-link text-white" href="#biblical">Biblical</a>
-            <a class="nav-link text-white" href="#historical">Historical</a>
-            <a class="nav-link text-white" href="#theological">Theological</a>
-            <a class="nav-link text-white" href="#liturgical">Liturgical</a>
+    </div>
+    <div class="container-fluid d-flex justify-content-around text-center">
+            <a class="nav-link text-white" href="#books">Book</a>
             <a class="nav-link text-white" href="#biographies">Biographies</a>
-            <a class="nav-link text-white" href="#editorial">Editorial</a>
-            <a class="nav-link text-white" href="#books">Books</a>
-            <a class="nav-link text-white" href="#other">Other Works</a>
+            <a class="nav-link text-white" href="#historical">Historical</a>
+            <!--<a class="nav-link text-white" href="#theological">Theological</a>-->
+            <a class="nav-link text-white" href="#liturgical">Liturgical</a>
+            <!--<a class="nav-link text-white" href="#editorial">Editorial</a>-->
+            <!--a class="nav-link text-white" href="#other">Other Works</a>-->
+        
         
     </div>
 </nav>
